@@ -1,3 +1,4 @@
+/* "Dados da lib" */
 const booksByCategory = [
     {
         category: "Riqueza",
@@ -34,7 +35,7 @@ const booksByCategory = [
         ]
     }
 ]
-
+/*************************/
 const totalCategories = booksByCategory.length;
 
 console.log(`Total de categorias: ${totalCategories}`);
@@ -55,4 +56,4 @@ function booksAuthors(author) {
     console.log(`Os livros do autor ${author} são: ${books.join(', ')}`)
 }
 
-booksAuthors('Robert T. Kiyosaki e Sharon L. Lechter')
+booksAuthors('Augusto Cury')
