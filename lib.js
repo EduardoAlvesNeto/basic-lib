@@ -56,5 +56,3 @@ function booksAuthors(author) {
 }
 
 booksAuthors('Robert T. Kiyosaki e Sharon L. Lechter')
-
-/* tester */
